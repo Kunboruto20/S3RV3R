@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-node-api-gvny",
   "version": "1.0.0",
-  "description": "A comprehensive WhatsApp Web API library for Node.js with full QR code support, authentication, messaging, and business features",
+  "description": "A comprehensive WhatsApp Web API library for Node.js with full QR code support",
   "main": "index.js",
   "keywords": [
     "whatsapp",
@@ -9,53 +9,27 @@
     "whatsapp-api",
     "qr-code",
     "messaging",
-    "chat-bot",
-    "whatsapp-business",
-    "automation",
-    "nodejs",
-    "typescript-support"
+    "nodejs"
   ],
-  "author": "WhatsApp Node API Team",
+  "author": "GVNY",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/your-username/whatsapp-node-api-gvny.git"
-  },
-  "bugs": {
-    "url": "https://github.com/your-username/whatsapp-node-api-gvny/issues"
-  },
-  "homepage": "https://github.com/your-username/whatsapp-node-api-gvny#readme",
   "engines": {
     "node": ">=16.0.0"
   },
   "scripts": {
     "start": "node index.js",
     "test": "node test_library.js",
-    "test:qr": "node simple_qr_test.js",
     "demo": "node simple_demo.js",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "qr": "node simple_qr_display.js",
+    "android": "node test_android.js"
   },
   "dependencies": {
-    "ws": "^8.14.2",
     "qrcode": "^1.5.3",
     "qrcode-terminal": "^0.12.0",
+    "ws": "^8.14.2",
     "protobufjs": "^7.2.5",
-    "curve25519-js": "^0.0.4",
-    "sharp": "^0.32.6",
-    "ffmpeg-static": "^5.2.0",
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^2.7.0",
     "form-data": "^4.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.50.0",
-    "prettier": "^3.0.3",
-    "@types/node": "^20.8.0",
-    "typescript": "^5.2.2"
-  },
-  "optionalDependencies": {
-    "bufferutil": "^4.0.7",
-    "utf-8-validate": "^6.0.3"
   },
   "files": [
     "index.js",
@@ -96,9 +70,5 @@
     "WAM/",
     "WAUSYNC/",
     "WebHooks/"
-  ],
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/your-username"
-  }
+  ]
 }
