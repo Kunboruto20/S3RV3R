@@ -20,11 +20,16 @@
     "start": "node index.js",
     "test": "node test_library.js",
     "demo": "node simple_demo.js",
-    "qr": "node simple_qr_display.js"
+    "qr": "node simple_qr_display.js",
+    "android": "node test_android.js"
   },
   "dependencies": {
     "qrcode": "^1.5.3",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "^0.12.0",
+    "ws": "^8.14.2",
+    "protobufjs": "^7.2.5",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0"
   },
   "files": [
     "index.js",
