@@ -1,0 +1,56 @@
+{
+  "name": "whatsapp-node-api-gvny",
+  "version": "1.0.0",
+  "description": "Complete WhatsApp Web API implementation with WebSocket support, QR code and pairing code authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/test.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-web",
+    "websocket",
+    "qr-code",
+    "pairing-code",
+    "messaging",
+    "media",
+    "signal-protocol",
+    "end-to-end-encryption"
+  ],
+  "author": "GVNY",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "curve25519-js": "^0.0.4",
+    "node-fetch": "^3.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.3",
+    "crypto": "^1.0.1",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "uuid": "^9.0.1",
+    "protobufjs": "^7.2.5",
+    "jimp": "^0.22.10",
+    "sharp": "^0.32.6",
+    "ffmpeg-static": "^5.2.0",
+    "form-data": "^4.0.0",
+    "axios": "^1.6.0",
+    "pino": "^8.16.1",
+    "libsignal": "^2.4.0",
+    "hkdf": "^0.0.2",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gvny/whatsapp-node-api-gvny.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gvny/whatsapp-node-api-gvny/issues"
+  },
+  "homepage": "https://github.com/gvny/whatsapp-node-api-gvny#readme"
+}
