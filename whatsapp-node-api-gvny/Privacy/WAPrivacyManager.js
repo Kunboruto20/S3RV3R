@@ -319,7 +319,7 @@ class WAPrivacyManager extends EventEmitter {
         }
     }
 
-    async unrestrict Contact(jid, restrictionTypes = null) {
+    async unrestrictContact(jid, restrictionTypes = null) {
         try {
             if (!this.restrictedContacts.has(jid)) {
                 return false;
